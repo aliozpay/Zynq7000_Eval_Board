@@ -82,6 +82,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZUIZENVS
 
+[Document3]
+DocumentPath=FPGA_Power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QNOYMHLP
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1058,7 +1075,12 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=GND|NetColor=$00FF6E6E
+Net1=NetName=+DDRVCC|NetColor=$006E6EFF
+Net2=NetName=+VCC1V8|NetColor=$00FF6EFF
+Net3=NetName=+VCC3V3|NetColor=clYellow
+Net4=NetName=+VCCINT|NetColor=$00FFFF6E
+Net5=NetName=GND|NetColor=$00FF6E6E
+Net6=NetName=NetC?_2|NetColor=$00FFFF6E
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
